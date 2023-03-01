@@ -1,0 +1,160 @@
+:root {
+  --dark: #374151;
+  --darker: #1f2937;
+  --darkest: #111827;
+  --gray: #6b7280;
+  --light: #eee;
+  --pink: #ec4899;
+  --purple: #8b5cf6;
+}
+.navbar-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--purple);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar-li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+.navbar-li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar-li a:hover {
+  background-color: #111;
+}
+
+
+
+main {
+  padding-top: 180px;
+  padding-left: 30%;
+}
+
+.user_name,
+.password,
+.input-task,
+.form-register-input {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.button-sign-in {
+  background-color: var(--purple);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 40%;
+}
+
+.a-regist-in {
+  text-decoration: none;
+  background-color: var(--purple);
+  color: white;
+  padding: 14px 127px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-add {
+  background-color: var(--purple);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30%;
+}
+
+.form-register {
+  padding-left: 150px;
+}
+
+#button-register {
+  background-color: var(--purple);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 40%;
+}
+
+#button-register-autorization {
+  text-decoration: none;
+  background-color: var(--purple);
+  color: white;
+  padding: 14px 90px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 40%;
+}
+
+.msg {
+  border: 2px solid red;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  width: 37%;
+}
+/* max-width: 305px; */
+
+.ul-for-index{
+  list-style-type: none;
+  background-color: white;
+  width: 415px;
+  min-width: 10%;
+  max-width: 45%;;
+  
+  border-radius: 3px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.li-for-index {
+  text-decoration: none;
+  border: 2px solid var(--purple);
+  margin-top: 5px;
+  list-style-type: none;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.button-for-delete {
+
+  background-color: var(--purple);
+  color: white;
+  padding: 14px 90px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 300px;
+}
